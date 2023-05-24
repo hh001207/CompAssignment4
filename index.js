@@ -4,19 +4,19 @@ let dark = false;
 function toggleMode() {
   const bodyElement = document.getElementById("game_grid1");
   dark = !dark;
-  bodyElement.style.backgroundColor = dark ? "#000000" : "#808080";
+  bodyElement.style.backgroundColor = dark ? "#808080" : "#FFFFFF";
 }
 
 function toggleMode2() {
   const bodyElement = document.getElementById("game_grid2");
   dark = !dark;
-  bodyElement.style.backgroundColor = dark ? "#000000" : "#808080";
+  bodyElement.style.backgroundColor = dark ? "#808080" : "#FFFFFF";
 }
 
 function toggleMode3() {
   const bodyElement = document.getElementById("game_grid3");
   dark = !dark;
-  bodyElement.style.backgroundColor = dark ? "#000000" : "#808080";
+  bodyElement.style.backgroundColor = dark ? "#808080" : "#FFFFFF";
 }
 
 const startTimer = () => {
