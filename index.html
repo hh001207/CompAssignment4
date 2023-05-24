@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- import jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <center>
+  <div id="header1">
+    <h1>Memory Game</h1>
+    <p>Flips: <span id="flips">0</span></p>
+    <p>Pairs left: <span id="pairs-left"></span></p>
+    <p>Pairs matched: <span id="pairs-matched">0</span></p>
+    <p>Total pairs: <span id="total-pairs"></span></p>
+    <p>Level: <span id="total-pairs"></span>Easy</p>
+    <p>Time left: <span id="timer">100</span> seconds</p>
+  </div>
+</center>
+
+<center>
+  <button onclick="toggleMode()" id="darkmode1">Change Background</button>
+  </center>
+  <div id="game_grid1">
+    <div class="card1">
+      <img class="front_face" alt="">
+      <img class="back_face" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front_face" alt="">
+      <img class="back_face" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front_face" alt="">
+      <img class="back_face" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front_face" alt="">
+      <img class="back_face" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front_face" alt="">
+      <img class="back_face" src="back.webp" alt="">
+    </div>
+    <div class="card1">
+      <img class="front_face" alt="">
+      <img class="back_face" src="back.webp" alt="">
+    </div>    
+  </div>
+
+  <center>
+    <div id="header2">
+      <h1>Memory Game</h1>
+      <p>Flips: <span id="flips2">0</span></p>
+      <p>Pairs left: <span id="pairs-left2"></span></p>
+      <p>Pairs matched: <span id="pairs-matched2">0</span></p>
+      <p>Total pairs: <span id="total-pairs2"></span></p>
+      <p>Level: <span></span>Medium</p>
+      <p>Time left: <span id="timer2">200</span> seconds</p>
+    </div>
+  </center>
+
+
+<center>
+  <button onclick="toggleMode2()" id="darkmode2">Change Background</button>
+  </center>
+<div id="game_grid2">
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>   
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card2">
+    <img class="front_face2" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>   
+</div>
+
+
+<center>
+  <div id="header3">
+    <h1>Memory Game</h1>
+    <p>Flips: <span id="flips3">0</span></p>
+    <p>Pairs left: <span id="pairs-left3"></span></p>
+    <p>Pairs matched: <span id="pairs-matched3">0</span></p>
+    <p>Total pairs: <span id="total-pairs3"></span></p>
+    <p>Level: <span></span>Hard</p>
+    <p>Time left: <span id="timer3">300</span> seconds</p>
+  </div>
+</center>
+
+<center>
+  <button onclick="toggleMode3()" id="darkmode3">Change Background</button>
+  </center>
+
+<div id="game_grid3">
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>   
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>  
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>   
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>
+  <div class="card3">
+    <img class="front_face3" alt="">
+    <img class="back_face" src="back.webp" alt="">
+  </div>  
+</div>
+
+  <center>
+  <div id="start_screen">
+    <button id="start_button">Start Game</button>
+    <br>
+    <br>
+    <select id="difficulty">
+      <option value="" disabled selected>Select Difficulty:</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>    
+  </div>
+  </center>
+
+  <center>
+  <div id="reset_screen">
+    <button id="reset_button">Reset Game</button>
+  </div>
+</center>
+
+</body>
+
+</html>
