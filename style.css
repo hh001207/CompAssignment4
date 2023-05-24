@@ -4,7 +4,7 @@ body {
 
 #game_grid1 {
   background-color: white;
-  border: 1px tomato solid;
+  border: 5px blue solid;
   width: 800px;
   height: 600px;
   margin: auto;
@@ -13,7 +13,7 @@ body {
 }
 
 #game_grid2 {
-  border: 1px tomato solid;
+  border: 5px blue solid;
   width: 1000px;
   height: 800px;
   margin: auto;
@@ -22,7 +22,7 @@ body {
 }
 
 #game_grid3 {
-  border: 1px tomato solid;
+  border: 5px blue solid;
   width: 1200px;
   height: 1000px;
   margin: auto;
