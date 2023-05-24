@@ -4,16 +4,7 @@ body {
 
 #game_grid1 {
   background-color: white;
-  border: 2px tomato solid;
-  width: 600px;
-  height: 400px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#game_grid2 {
-  border: 2px tomato solid;
+  border: 1px tomato solid;
   width: 800px;
   height: 600px;
   margin: auto;
@@ -21,10 +12,19 @@ body {
   flex-wrap: wrap;
 }
 
-#game_grid3 {
-  border: 2px tomato solid;
+#game_grid2 {
+  border: 1px tomato solid;
   width: 1000px;
   height: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game_grid3 {
+  border: 1px tomato solid;
+  width: 1200px;
+  height: 1000px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -97,5 +97,5 @@ img {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: rgb(14, 13, 13);
 }
